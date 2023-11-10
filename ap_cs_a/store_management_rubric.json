@@ -1,0 +1,113 @@
+{
+  "Rubric-Title": "AP CS A: Store Management Project",
+  "Criteria": {
+    "Object-Oriented Programming": {
+      "Extensive Evidence": {
+        "Score": 100,
+        "Description": "Develops a superclass that represents a product or service the business offers. AND Develops more than one subclass that extends the superclass to represent more specific types of products or services."
+      },
+      "Convincing Evidence": {
+        "Score": 90,
+        "Description": "Develops a superclass that represents a product or service the business offers. AND Develops one subclass that extends the superclass to represent more specific types of products or services."
+      },
+      "Limited Evidence": {
+        "Score": 70,
+        "Description": "Develops more than one class that represents a product or service the business offers but does not use inheritance to create subclasses from a superclass."
+      },
+      "Incomplete / No Evidence": {
+        "Score": 50,
+        "Description": "Develops a class that represents a product or service the business offers."
+      }
+    },
+    "Instance Variables": {
+      "Extensive Evidence": {
+        "Score": 100,
+        "Description": "Declares relevant private instance variables with appropriate data types and names in the superclass that are shared with subclasses. AND Declares relevant private instance variables with appropriate data types and names in the subclasses that are not shared with the superclass."
+      },
+      "Convincing Evidence": {
+        "Score": 90,
+        "Description": "Declares private instance variables with appropriate data types in the superclass that are shared with the subclass, but not all instance variables are relevant to the program. AND Declares relevant private instance variables with appropriate data types in the subclass that are not shared with the superclass, but not all instance variables are relevant to the program."
+      },
+      "Limited Evidence": {
+        "Score": 70,
+        "Description": "Declares relevant instance variables in each class. OR Declares relevant instance variables in the superclass and subclasses, but the instance variables have public access or are not appropriate data types."
+      },
+      "Incomplete / No Evidence": {
+        "Score": 50,
+        "Description": "Does not declare relevant instance variables in any classes."
+      }
+    },
+    "Constructors": {
+      "Extensive Evidence": {
+        "Score": 100,
+        "Description": "Writes a no-argument and more than one parameterized constructor in the superclass. AND Writes a no-argument and more than one parameterized constructor in the subclasses that call the superclass constructor as appropriate using the super keyword."
+      },
+      "Convincing Evidence": {
+        "Score": 90,
+        "Description": "Writes a no-argument and a parameterized constructor in the superclass. AND Writes a no-argument and a parameterized constructor in the subclass that calls the superclass constructor as appropriate using the super keyword."
+      },
+      "Limited Evidence": {
+        "Score": 70,
+        "Description": "Writes a no-argument or parameterized constructor in a class."
+      },
+      "Incomplete / No Evidence": {
+        "Score": 50,
+        "Description": "Does not write a constructor in any classes."
+      }
+    },
+    "Accessor and Mutator Methods": {
+      "Extensive Evidence": {
+        "Score": 100,
+        "Description": "Writes accessor methods for instance variables that should be accessible from outside of the class. AND Writes mutator methods for instance variables that should be modifiable from outside of the class."
+      },
+      "Convincing Evidence": {
+        "Score": 90,
+        "Description": "Writes accessor methods for all instance variables in each class. AND Writes mutator methods for all instance variables in each class."
+      },
+      "Limited Evidence": {
+        "Score": 70,
+        "Description": "Writes accessor and mutator methods for instance variables in a class. OR Writes accessor or mutator methods for instance variables in the superclass but not the subclasses."
+      },
+      "Incomplete / No Evidence": {
+        "Score": 50,
+        "Description": "Does not write accessor or mutator methods in any classes."
+      }
+    },
+    "toString() Method": {
+      "Extensive Evidence": {
+        "Score": 100,
+        "Description": "Writes a toString() method in the superclass. AND Writes a toString() method in the subclasses that include the superclass toString() method."
+      },
+      "Convincing Evidence": {
+        "Score": 90,
+        "Description": "Writes a toString() method in the superclass. AND Writes a toString() method in the subclass but does not include the superclass toString() method."
+      },
+      "Limited Evidence": {
+        "Score": 70,
+        "Description": "Writes a toString() method in a class."
+      },
+      "Incomplete / No Evidence": {
+        "Score": 50,
+        "Description": "Does not write a toString() method in any classes."
+      }
+    },
+    "Completed Doc": {
+      "Extensive Evidence": {
+        "Score": 100,
+        "Description": "Doc fully completed"
+      },
+      "Convincing Evidence": {
+        "Score": 90,
+        "Description": "Doc mostly completed"
+      },
+      "Limited Evidence": {
+        "Score": 70,
+        "Description": "Doc partially completed"
+      },
+      "Incomplete / No Evidence": {
+        "Score": 50,
+        "Description": "Incomplete"
+      }
+    }
+  }
+}
